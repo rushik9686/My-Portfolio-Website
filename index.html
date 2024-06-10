@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio Website</title>
+</head>
+
+<body>
+    <!-----NAV MENU----->
+    <div class="container">
+        <nav id="header" class="collapse navbar-collapse">
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nal_list">
+                        <a href="#home" class="nav-link active-link">HOME</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nal_list">
+                        <a href="#about" class="nav-link ">ABOUT</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nal_list">
+                        <a href="#skills" class="nav-link">SKILLS</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nal_list">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nal_list">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-----Dark Mode----->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa-regular fa-moon" id="moon"></i>
+                    <i class="fa-regular fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!--------Main------->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,m Rushikesh</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <h2>Web Developer</h2>
+                        <p>Welcome to my portfolio website.</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="#contact" class="btn hire-btn">Hire Me</a>
+                        <a href="file:///E:/rushi%20resume/resume%20rushi.pdf" class="btn" download="Resume.pdf">
+                            Download CV<i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon-circle"></div>
+                        <div></div>
+                        <div class="icon"><a
+                                href="https://www.linkedin.com/in/rushikesh-kumbhar-1295b5303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                    class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="icon"><a href="https://github.com/rushik9686"><i
+                                    class="fa-brands fa-github"></i></a></div>
+                        <div class="icon"><a href="https://www.instagram.com/rushi_9686?igsh=MTQzcG5ocmFudm5lZA=="><i
+                                    class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="my.png" alt="image">
+                    </div>
+                </div>
+            </section>
+
+            <!--------About-------->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>ABOUT ME</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="my.png" alt="" class="profile">
+                                    <h2>Web Developer</h2>
+                                    <br>
+                                    <p>Hello, I am Rushikesh Kumbhar.</p>
+                                    <p>Welcome to my portfolio website. I am a BCA graduate student and I am passionate
+                                        about WEB DEVELOPEMENT,
+                                        and I specialized in full stack developement. With a diverse background and a
+                                        commitment to excellence,
+                                        I am dedicated to delivering high-quality work that exceeds expectations.
+                                        I have 6 months experience of working on multiple projects.</p>
+                            </figure>
+                            <a href="#contact" class="about-me-btn">Hire Me</a>
+                        </div>
+                    </div>
+                    <div class="edu">
+                        <h2>Education</h2>
+                        <div class="edu-item">
+                            <h3 class="cls">Bacholor of Computer Applications</h3>
+                            <p>Chintamanrao Institute of Management Developement and Research, Sangli</p>
+                            <p><i class="fa-regular fa-calendar-days"></i>&nbsp;:&nbsp;&nbsp;2022</p>
+                            <p>Marks: 79%</p>
+                        </div>
+                        <div class="edu-item">
+                            <h3 class="cls">HSC</h3>
+                            <p>Vidya Mandir Jr College</p>
+                            <p><i class="fa-regular fa-calendar-days"></i>&nbsp;:&nbsp;&nbsp;2019</p>
+                            <p>Marks: 58%</p>
+                        </div>
+                        <div class="edu-item">
+                            <h3 class="cls">SSC</h3>
+                            <p>Aadarsh Shikshan Mandir, Miraj</p>
+                            <p><i class="fa-regular fa-calendar-days"></i>&nbsp;:&nbsp;&nbsp;2017</p>
+                            <p>Marks: 79%</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------Skills------->
+            <section class="section" id="skills">
+                <div>
+                    <div class="top-header">
+                        <h1>SKILLS</h1>
+                    </div>
+                    <div class="skills">
+                        <h3 class="in-title">FRONTEND</h3>
+                        <div class="skills-box">
+                            <span class="titel">HTML</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per html">
+                                    <span class="tooltip">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <span class="titel">CSS</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per css">
+                                    <span class="tooltip">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <span class="titel">JavaScript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per js">
+                                    <span class="tooltip">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <span class="titel">React</span>
+                            <div class="skill-bar">
+                                <span class="skill-per react">
+                                    <span class="tooltip">60%</span>
+                            </div>
+                        </div>
+
+                        <h3 class="in-title">BACKEND</h3>
+                        <div>
+                            <div class="skills-box">
+                                <span class="titel">SQL</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per sql">
+                                        <span class="tooltip">60%</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <span class="titel">MongoDB</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per mb">
+                                        <span class="tooltip">70%</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <span class="titel">Node js</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per node">
+                                        <span class="tooltip">70%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="in-title">Languages</h3>
+                        <div>
+                            <div class="skills-box">
+                                <span class="titel">Java</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per java">
+                                        <span class="tooltip">70%</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <span class="titel">C</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per c">
+                                        <span class="tooltip">50%</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <span class="titel">C++</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per c-plus">
+                                        <span class="tooltip">50%</span>
+                                </div>
+                            </div>
+                            <div class="skills-box">
+                                <span class="titel">Python</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per python">
+                                        <span class="tooltip">60%</span>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+
+            <!--------Projects------->
+            <section class="section mb-0" id="projects">
+                <div class="top-header">
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class="gallery-wrap">
+                    <i class="fa-solid fa-caret-left" id="backBtn"></i>
+                    <div class="gallery">
+                        <div>
+                            <span>
+                                <a href="https://majorproject-1-t93b.onrender.com/listings"
+                                    style="text-decoration: none; color: black;">
+                                    <h3>My first fullstack project.</h3><br>
+                                    <img src="C:\Users\Rushi\Pictures\Screenshots\Wanderlust project img.png">
+                                </a>
+                                <br>
+                                <p>This is my first fullstack usinng JS. This is hotel booking website where you can
+                                    book hotels, and property owners list can their properties here.</p>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <a href="file:///C:/Users/Rushi/.vscode/projects/myPortfolioWebsite/index.html#home"
+                                    style="text-decoration: none; color: black;">
+                                    <h3>My portfolio Website.</h3><br>
+                                    <img src="C:\Users\Rushi\Pictures\Screenshots\porfolio web img.png">
+                                </a>
+                                <br>
+                                <p>This is my portfolio website, I used HTML, CSS and JS to build this project to
+                                    showcase my technical skills.</p>
+                            </span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-caret-right" id="forBtn"></i>
+                </div>
+            </section>
+
+            <!-------Contact-------->
+            <section class="section mt-0" id="contact">
+                <div class="top-header contactClass" style="text-align: center;">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope">&nbsp;&nbsp;rushikumbhar9686@gmail.com</i></p>
+                            <p><i class="uil uil-phone">&nbsp;&nbsp;+91 9011185397</i></p>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="text-area">
+                            <input type="text" class="input-subject" placeholder="Name">
+                        </div>
+                        <div class="form-input">
+                            <input type="number" class="input-field" placeholder="Contact Number">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <input type="text" class="input-subject" placeholder="Subject">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-btn">
+                            <button class="btn">Send<i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-------Footer------->
+        <footer>
+            <div class="middel-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon1"><a
+                        href="https://www.linkedin.com/in/rushikesh-kumbhar-1295b5303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-linkedin"></i></a></div>
+                <div class="icon1"><a href="https://github.com/rushik9686"><i class="fa-brands fa-github"></i></a></div>
+                <div class="icon1"><a href="https://www.instagram.com/rushi_9686?igsh=MTQzcG5ocmFudm5lZA=="><i
+                            class="fa-brands fa-instagram"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">RushiWebDeveloper</a> - All rights
+                    reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
